@@ -1,0 +1,36 @@
+QWidget {
+    background: #1f2121;
+    color: white;
+    font-family: Arial;
+}
+
+QPushButton {
+background: #53bd4a;
+border-radius: 15px;
+height: 50px;
+font-size: 20px;
+}
+
+QListWidget, QLineEdit {
+    background:#2f3030;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 45px;
+    padding: 5px;
+}
+
+QPushButton#deleteButton:hover {
+    background-color: #d61e4c;
+}
+
+QListWidget::item {
+    margin: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid grey;
+}
+
+QListWidget::item:selected {
+    background-color: #d61e4c;
+    color:white;
+    border-radius: 20px;
+}
